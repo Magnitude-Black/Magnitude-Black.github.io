@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1, h2, h3, h4, h5, h6 { color: black; margin: 0 0 10px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; }
+
+body, #header {
+  background: white;
+}
+
+#header {
+  border: none;
+  box-shadow: none;
+}
+
+.credits.right {
+  display: none;
+}
